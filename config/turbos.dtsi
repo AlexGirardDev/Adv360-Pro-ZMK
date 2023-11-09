@@ -115,7 +115,7 @@ label = "m_turbo";
 };
 
 
-n_turbo: N_turbo{
+n_turbo: n_turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "n_turbo";
  #binding-cells = <0>;
