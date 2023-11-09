@@ -1,6 +1,6 @@
 p_turbo: p_turbo {
     compatible = "zmk,behavior-turbo-key";
-    label = "a_turbo";
+    label = "p_turbo";
     #binding-cells = <0>;
     wait-ms = <100>;
     bindings = <&kp P>;
