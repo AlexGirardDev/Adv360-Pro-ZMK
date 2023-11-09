@@ -5,17 +5,17 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   update-file:
     runs-on: ubuntu-latest
+    # Prevent running on pushes made by the GitHub Actions bot
     if: ${{ github.actor != 'github-actions[bot]' }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Important to ensure history is available for push
 
       - name: Check and update file
         run: |
           FILE_PATH="config/adv360.keymap"
-          
           if ! grep -q "turbos.dtsi" "$FILE_PATH"; then
             sed -i '/behaviors {/{N;N;s|#include "macros.dtsi"|#include "macros.dtsi"\n    #include "turbos.dtsi"|}' "$FILE_PATH"
             echo "File updated to include turbos.dtsi."
