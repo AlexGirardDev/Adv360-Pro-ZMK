@@ -234,7 +234,7 @@ label = "z_turbo";
 
 N1_turbo: N1_turbo{
 compatible = "zmk,behavior-turbo-key";
-label = "n1_turbo";
+label = "N1_turbo";
  #binding-cells = <0>;
  wait-ms = <100>;
  bindings = <&kp N1>;
@@ -242,7 +242,7 @@ label = "n1_turbo";
 
 N2_turbo: N2_turbo{
 compatible = "zmk,behavior-turbo-key";
-label = "n2_turbo";
+label = "N2_turbo";
  #binding-cells = <0>;
  wait-ms = <100>;
  bindings = <&kp N2>;
