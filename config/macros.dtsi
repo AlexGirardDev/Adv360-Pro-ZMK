@@ -1,0 +1,299 @@
+a_turbo: a_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "a_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp A>;
+};
+
+
+b_turbo: b_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "b_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp B>;
+};
+
+
+c_turbo: c_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "c_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp C>;
+};
+
+
+d_turbo: d_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "d_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp D>;
+};
+
+
+e_turbo: e_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "e_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp E>;
+};
+
+
+f_turbo: f_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "f_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp F>;
+};
+
+
+g_turbo: g_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "g_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp G>;
+};
+
+
+h_turbo: h_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "h_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp H>;
+};
+
+
+i_turbo: i_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "i_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp I>;
+};
+
+
+j_turbo: j_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "j_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp J>;
+};
+
+
+k_turbo: k_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "k_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp K>;
+};
+
+
+l_turbo: l_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "l_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp L>;
+};
+
+
+m_turbo: m_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "m_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp M>;
+};
+
+
+n_turbo: n_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N>;
+};
+
+
+o_turbo: o_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "o_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp O>;
+};
+
+
+p_turbo: p_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "p_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp P>;
+};
+
+
+q_turbo: q_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "q_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp Q>;
+};
+
+
+r_turbo: r_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "r_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp R>;
+};
+
+
+s_turbo: s_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "s_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp S>;
+};
+
+
+t_turbo: t_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "t_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp T>;
+};
+
+
+u_turbo: u_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "u_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp U>;
+};
+
+
+v_turbo: v_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "v_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp V>;
+};
+
+
+w_turbo: w_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "w_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp W>;
+};
+
+
+x_turbo: x_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "x_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp X>;
+};
+
+
+y_turbo: y_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "y_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp Y>;
+};
+
+
+z_turbo: z_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "z_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp Z>;
+};
+
+
+N1_turbo: N1_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N1_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N1>;
+};
+
+N2_turbo: N2_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N2_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N2>;
+};
+N3_turbo: N3_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N3_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N3>;
+};
+N4_turbo: N4_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N4_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N4>;
+};
+N5_turbo: N5_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N5_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N5>;
+};
+N6_turbo: N6_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "N6_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N6>;
+};
+
+comma_turbo: comma_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "comma_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp COMMA>;
+};
+single_quote_turbo: single_quote_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "single_quote_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp SQT>;
+};
+slash_turbo: slash__turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "slash_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp SLASH>;
+};
