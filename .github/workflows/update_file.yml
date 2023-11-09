@@ -5,6 +5,7 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   update-file:
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
