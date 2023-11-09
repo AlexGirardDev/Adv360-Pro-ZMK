@@ -1,0 +1,15 @@
+p_turbo: p_turbo {
+    compatible = "zmk,behavior-turbo-key";
+    label = "a_turbo";
+    #binding-cells = <0>;
+    wait-ms = <100>;
+    bindings = <&kp P>;
+};
+
+a_turbo: a_turbo {
+    compatible = "zmk,behavior-turbo-key";
+    label = "a_turbo";
+    #binding-cells = <0>;
+    wait-ms = <100>;
+    bindings = <&kp A>;
+};
