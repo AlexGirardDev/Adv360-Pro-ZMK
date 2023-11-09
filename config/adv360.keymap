@@ -1,317 +1,99 @@
-a_turbo: a_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "a_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp A>;
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+
+/* THIS FILE WAS GENERATED!
+ *
+ * This file was generated automatically. You may or may not want to
+ * edit it directly.
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/backlight.h>
+
+/ {
+  behaviors {
+    #include "macros.dtsi"
+
+    hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+    };
+  };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+
+        default_layer {
+            bindings = <
+ &kp GRAVE     &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &kp F5                                                                       &none  &kp N6     &kp N7  &kp N8    &kp N9     &kp N0      &to 5
+   &kp TAB    &kp SQT  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &kp EQUAL                                                                   &kp PG_UP   &kp F      &kp G   &kp C     &kp R      &kp L   &kp HOME
+   &kp ESC      &kp A      &kp O       &kp E   &kp U   &kp I              &kp F12  &kp LGUI  &kp LALT                  &kp LGUI  &kp LC(LA(SPACE))  &kp PG_DN   &kp D      &kp H   &kp T     &kp N      &kp S    &kp END
+ &kp LSHFT  &kp SLASH      &kp Q       &kp J   &kp K   &kp X                                  &kp DEL                     &none                                 &kp B      &kp M   &kp W     &kp V      &kp Z  &kp ENTER
+ &kp LCTRL     &kp UP   &kp DOWN    &kp LBKT  &kp N9                    &kp SPACE  &kp BSPC     &mo 1                     &mo 3              &mo 2      &mo 1          &kp LC(B)   &none  &kp LEFT  &kp RIGHT  &kp K_APP
+            >;
+        };
+
+        layer_red {
+            bindings = <
+  &kp LA(F4)    &kp LC(LA(N1))        &kp LC(LA(N2))    &kp LC(LA(N3))        &kp LC(LA(N4))  &kp LC(LA(N5))            &trans                                                                    &trans   &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &kp LC(LA(MINUS))
+ &kp LA(ESC)     &kp LA(GRAVE)             &kp LC(X)         &kp LC(C)             &kp LC(V)       &kp PSCRN             &none                                                                    &trans  &kp LC(LS(TAB))          &kp N7          &kp N8          &kp N9          &trans             &trans
+      &trans     &kp LC(LA(H))         &kp LC(LA(J))     &kp LC(LA(K))         &kp LC(LA(L))          &trans             &none  &bt BT_SEL 0  &bt BT_SEL 1                  &bt BT_SEL 3  &trans  &trans      &kp LC(TAB)          &kp N4          &kp N5          &kp N6          &trans             &trans
+      &trans         &kp LC(Z)             &kp LC(Y)         &kp LC(A)         &kp LC(LA(C))   &kp LC(LA(P))                                  &bt BT_SEL 2                         &none                           &trans          &kp N1          &kp N2          &kp N3       &kp EQUAL             &trans
+      &trans  &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                            &trans        &trans        &trans                        &trans  &trans  &trans                           &trans          &kp N0          &kp N0          &trans             &trans
+            >;
+        };
+
+        layer_Symbols {
+            bindings = <
+ &trans     &trans     &trans  &kp LG(N3)          &kp LG(N4)  &kp LG(N5)              &kp C_MUTE                                                                           &kp C_PLAY_PAUSE     &trans    &trans    &trans     &trans     &trans  &kp KP_NUMLOCK
+ &trans   &kp EXCL     &kp AT    &kp HASH            &kp DLLR   &kp PRCNT            &kp C_VOL_UP                                                                                 &kp C_PREV  &kp CARET  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR          &trans
+ &trans   &kp LBKT   &kp SEMI    &kp LBRC            &kp LPAR   &kp GRAVE            &kp C_VOL_DN  &bt BT_CLR  &kp LC(LA(PAUSE_BREAK))                  &bl BL_TOG  &trans        &kp C_NEXT  &kp TILDE  &kp RPAR  &kp RBRC  &kp COLON   &kp RBKT          &trans
+ &trans  &kp QMARK  &kp MINUS    &kp BSLH           &kp EQUAL      &kp LT                                                       &trans                      &trans                               &kp GT  &kp PLUS  &kp PIPE  &kp UNDER  &kp SLASH          &trans
+ &trans     &trans     &trans      &trans  &macro_make_bigger                               &mo 3      &trans                   &trans                      &trans  &trans            &trans               &trans    &trans     &trans     &trans          &trans
+            >;
+        };
+
+        layer_Fn {
+            bindings = <
+  &none   &none     &none     &none      &none   &none            &bootloader                                                  &kp LC(LA(LS(F6)))   &none  &kp F10  &kp F11  &kp F12   &none   &none
+ &trans   &none     &none     &none      &none   &none                  &none                                                  &kp LC(LA(LS(F5)))   &none   &kp F7   &kp F8   &kp F9   &none   &none
+ &trans  &kp UP  &kp DOWN  &kp LEFT  &kp RIGHT   &none                  &none   &to 4  &trans                  &trans  &trans  &kp LC(LA(LS(F4)))   &none   &kp F4   &kp F5   &kp F6   &none   &none
+ &trans   &none     &none     &none      &none   &none                                  &none                   &none                               &none   &kp F1   &kp F2   &kp F3   &none   &none
+ &trans   &none     &none     &none      &none                         &trans  &trans   &none                   &none   &none               &none            &none    &none    &none   &none   &none
+            >;
+        };
+
+        layer_QWERTY {
+            bindings = <
+    &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans   &trans    &trans     &trans
+   &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T            &trans                                                  &trans   &kp Y   &kp U      &kp I    &kp O     &kp P   &kp BSLH
+   &kp ESC   &kp A   &kp S   &kp D   &kp F   &kp G             &to 0  &trans  &trans                  &trans  &trans  &trans   &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT   &kp Z   &kp X   &kp C   &kp V   &kp B                             &none                  &trans                   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+    &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans     &trans   &trans    &trans     &trans
+            >;
+        };
+
+        layer_Layer__5 {
+            bindings = <
+ &trans    &trans  &trans  &trans    &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
+ &trans    &trans  &trans  &trans  &p_turbo  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &a_turbo  &trans  &trans    &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans    &trans  &trans  &trans    &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans    &trans  &trans  &trans    &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+    };
 };
-
-
-b_turbo: b_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "b_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp B>;
-};
-
-
-c_turbo: c_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "c_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp C>;
-};
-
-
-d_turbo: d_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "d_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp D>;
-};
-
-
-e_turbo: e_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "e_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp E>;
-};
-
-
-f_turbo: f_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "f_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp F>;
-};
-
-
-g_turbo: g_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "g_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp G>;
-};
-
-
-h_turbo: h_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "h_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp H>;
-};
-
-
-i_turbo: i_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "i_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp I>;
-};
-
-
-j_turbo: j_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "j_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp J>;
-};
-
-
-k_turbo: k_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "k_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp K>;
-};
-
-
-l_turbo: l_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "l_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp L>;
-};
-
-
-m_turbo: m_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "m_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp M>;
-};
-
-
-n_turbo: n_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "n_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N>;
-};
-
-
-o_turbo: o_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "o_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp O>;
-};
-
-
-p_turbo: p_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "p_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp P>;
-};
-
-
-q_turbo: q_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "q_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp Q>;
-};
-
-
-r_turbo: r_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "r_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp R>;
-};
-
-
-s_turbo: s_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "s_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp S>;
-};
-
-
-t_turbo: t_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "t_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp T>;
-};
-
-
-u_turbo: u_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "u_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp U>;
-};
-
-
-v_turbo: v_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "v_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp V>;
-};
-
-
-w_turbo: w_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "w_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp W>;
-};
-
-
-x_turbo: x_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "x_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp X>;
-};
-
-
-y_turbo: y_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "y_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp Y>;
-};
-
-
-z_turbo: z_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "z_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp Z>;
-};
-
-
-1_turbo: 1_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "1_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N1>;
-};
-
-
-2_turbo: 2_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "2_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N2>;
-};
-
-
-3_turbo: 3_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "3_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N3>;
-};
-
-
-4_turbo: 4_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "4_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N4>;
-};
-
-
-5_turbo: 5_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "5_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N5>;
-};
-
-
-6_turbo: 6_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "6_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N6>;
-};
-
-
-8_turbo: 8_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "8_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N8>;
-};
-
-
-9_turbo: 9_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "9_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N9>;
-};
-
-
-0_turbo: 0_turbo{
-compatible = "zmk,behavior-turbo-key";
-label = "0_turbo";
- #binding-cells = <0>;
- wait-ms = <100>;
- bindings = <&kp N0>;
-};
-
-
-
-

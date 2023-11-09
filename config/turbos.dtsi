@@ -1,4 +1,3 @@
-/home/alex/git/KeySpammer3/bin/Debug/net7.0/KeySpammer3 
 a_turbo: a_turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "a_turbo";
