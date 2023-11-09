@@ -17,15 +17,16 @@ jobs:
         run: |
           FILE_PATH="config/adv360.keymap"
           if ! grep -q "turbos.dtsi" "$FILE_PATH"; then
-            sed -i '/behaviors {/{N;N;s|#include "macros.dtsi"|#include "macros.dtsi"\n    #include "turbos.dtsi"|}' "$FILE_PATH"
-            echo "File updated to include turbos.dtsi."
+            sed -i '/behaviors {/{N;N;s|#include "macros.dtsi"|#include "macros.dtsi"\n    #include "turbos.dtsi"|}' "$FILE_PATH";
+            echo "File updated to include turbos.dtsi.";
             
-            git config --global user.name 'github-actions'
-            git config --global user.email 'github-actions@github.com'
-            git add "$FILE_PATH"
-            git commit -m "Add turbos.dtsi include to $FILE_PATH"
-            git push
-          else
-            echo "File already contains turbos.dtsi."
+            git config --global user.name 'github-actions';
+            git config --global user.email 'github-actions@github.com';
+            git add "$FILE_PATH";
+            git commit -m "Add turbos.dtsi include to $FILE_PATH";
+            git push;
+          else;
+            echo "File already contains turbos.dtsi.";
+          fi;
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
