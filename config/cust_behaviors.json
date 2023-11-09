@@ -80,32 +80,32 @@
 		"type": "UD"
 	},
 	{
-		"code": "&n2_turbo",
-		"name": "&n2_turbo",
+		"code": "&N2_turbo",
+		"name": "&N2_turbo",
 		"params": [
 			"code"
 		],
 		"type": "UD"
 	},
 	{
-		"code": "&n3_turbo",
-		"name": "&n3_turbo",
+		"code": "&N3_turbo",
+		"name": "&N3_turbo",
 		"params": [
 			"code"
 		],
 		"type": "UD"
 	},
 	{
-		"code": "&n4_turbo",
-		"name": "&n4_turbo",
+		"code": "&N4_turbo",
+		"name": "&N4_turbo",
 		"params": [
 			"code"
 		],
 		"type": "UD"
 	},
 	{
-		"code": "&n5_turbo",
-		"name": "&n5_turbo",
+		"code": "&N5_turbo",
+		"name": "&N5_turbo",
 		"params": [
 			"code"
 		],
