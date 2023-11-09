@@ -275,3 +275,25 @@ label = "n6_turbo";
  wait-ms = <100>;
  bindings = <&kp N6>;
 };
+
+comma_turbo: comma_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "comma_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp COMMA>;
+};
+single_quote_turbo: single_quote_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "single_quote_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp SQT>;
+};
+slash_turbo: slash__turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "slash_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp SLASH>;
+};
