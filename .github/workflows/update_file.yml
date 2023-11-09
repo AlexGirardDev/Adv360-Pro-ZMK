@@ -1,0 +1,29 @@
+name: Update File
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Important to ensure history is available for push
+
+      - name: Check and update file
+        run: |
+          FILE_PATH="path/to/your/file"
+          
+          if ! grep -q "turbos.dtsi" "$FILE_PATH"; then
+            sed -i '/behaviors {/{N;N;s|#include "macros.dtsi"|#include "macros.dtsi"\n    #include "turbos.dtsi"|}' "$FILE_PATH"
+            echo "File updated to include turbos.dtsi."
+            
+            git config --global user.name 'github-actions'
+            git config --global user.email 'github-actions@github.com'
+            git add "$FILE_PATH"
+            git commit -m "Add turbos.dtsi include to $FILE_PATH"
+            git push
+          else
+            echo "File already contains turbos.dtsi."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
