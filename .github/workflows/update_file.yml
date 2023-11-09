@@ -1,6 +1,7 @@
 name: Update File
 on: [push, pull_request, workflow_dispatch]
 
+#essentially every time i use the gui configurator it removes my references to turbos.dtsi so i just add it back 
 jobs:
   update-file:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
 
       - name: Check and update file
         run: |
-          FILE_PATH="path/to/your/file"
+          FILE_PATH="config/adv360.keymap"
           
           if ! grep -q "turbos.dtsi" "$FILE_PATH"; then
             sed -i '/behaviors {/{N;N;s|#include "macros.dtsi"|#include "macros.dtsi"\n    #include "turbos.dtsi"|}' "$FILE_PATH"
