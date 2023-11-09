@@ -232,3 +232,46 @@ label = "z_turbo";
 };
 
 
+N1_turbo: n1_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n1_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N1>;
+};
+
+N2_turbo: n2_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n2_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N2>;
+};
+N3_turbo: n3_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n3_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N3>;
+};
+N4_turbo: n4_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n4_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N4>;
+};
+N5_turbo: n5_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n5_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N5>;
+};
+N6_turbo: n6_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "n6_turbo";
+ #binding-cells = <0>;
+ wait-ms = <100>;
+ bindings = <&kp N6>;
+};
