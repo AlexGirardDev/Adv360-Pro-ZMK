@@ -42,11 +42,11 @@
        "&kp LSHFT",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",  "&kp B",                                "&none",                     "&trans",                      "&kp N",  "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH", "&kp RSHFT",
           "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans",    "&trans",  "&trans",   "&trans",    "&trans"
     ], [
-       "&trans",   "&trans", "&trans", "&trans",   "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&to 0",
-       "&trans",   "&trans", "&trans", "&trans", "&p_turbo", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&a_turbo", "&trans", "&trans",   "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",   "&trans", "&trans", "&trans",   "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",   "&trans", "&trans", "&trans",   "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",           "&N1_turbo",    "&n2_turbo", "&trans", "&n4_turbo", "&n5_turbo",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&to 0",
+       "&trans", "&single_quote_turbo", "&comma_turbo", "&trans",  "&p_turbo",  "&y_turbo",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",            "&a_turbo",       "&trans", "&trans",    "&trans",  "&i_turbo",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",        "&slash_turbo",     "&q_turbo", "&trans",  "&k_turbo",  "&x_turbo",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",              "&trans",       "&trans", "&trans",    "&trans",                        "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }

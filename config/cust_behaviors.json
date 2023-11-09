@@ -14,5 +14,125 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&",
+		"name": "&",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&comma_turbo",
+		"name": "&comma_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&single_quote_turbo",
+		"name": "&single_quote_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&period_turbo",
+		"name": "&period_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&y_turbo",
+		"name": "&y_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&i_turbo",
+		"name": "&i_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&slash_turbo",
+		"name": "&slash_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&N1_turbo",
+		"name": "&N1_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&n2_turbo",
+		"name": "&n2_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&n3_turbo",
+		"name": "&n3_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&n4_turbo",
+		"name": "&n4_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&n5_turbo",
+		"name": "&n5_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&k_turbo",
+		"name": "&k_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&x_turbo",
+		"name": "&x_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&q_turbo",
+		"name": "&q_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
