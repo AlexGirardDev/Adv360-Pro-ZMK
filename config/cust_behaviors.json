@@ -134,5 +134,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&f5_turbo",
+		"name": "&f5_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]

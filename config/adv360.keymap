@@ -20,7 +20,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "turbos.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -49,11 +49,11 @@
 
         layer_WOW {
             bindings = <
- &trans            &N1_turbo     &N2_turbo  &trans  &N4_turbo  &N5_turbo            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &single_quote_turbo  &comma_turbo  &trans   &p_turbo   &y_turbo            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans             &a_turbo        &trans  &trans     &trans   &i_turbo            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans         &slash_turbo      &q_turbo  &trans   &k_turbo   &x_turbo                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans               &trans        &trans  &trans     &trans                       &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans            &N1_turbo     &N2_turbo  &trans  &N4_turbo  &N5_turbo            &f5_turbo                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
+ &trans  &single_quote_turbo  &comma_turbo  &trans   &p_turbo   &y_turbo               &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans             &a_turbo        &trans  &trans     &trans   &i_turbo               &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &slash_turbo      &q_turbo  &trans   &k_turbo   &x_turbo                               &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans               &trans        &trans  &trans     &trans                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
