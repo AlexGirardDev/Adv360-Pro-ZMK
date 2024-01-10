@@ -291,10 +291,19 @@ label = "single_quote_turbo";
  wait-ms = <turbo_delay>;
  bindings = <&kp SQT>;
 };
+
 slash_turbo: slash__turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "slash_turbo";
  #binding-cells = <0>;
  wait-ms = <turbo_delay>;
  bindings = <&kp SLASH>;
+};
+
+f5_turbo: slash__turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "f5_turbo";
+ #binding-cells = <0>;
+ wait-ms = <turbo_delay>;
+ bindings = <&kp F5>;
 };
