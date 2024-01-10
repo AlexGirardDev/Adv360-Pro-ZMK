@@ -292,7 +292,7 @@ label = "single_quote_turbo";
  bindings = <&kp SQT>;
 };
 
-slash_turbo: slash__turbo{
+slash_turbo: slash_turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "slash_turbo";
  #binding-cells = <0>;
@@ -300,7 +300,7 @@ label = "slash_turbo";
  bindings = <&kp SLASH>;
 };
 
-f5_turbo: slash__turbo{
+f5_turbo: f5_turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "f5_turbo";
  #binding-cells = <0>;
