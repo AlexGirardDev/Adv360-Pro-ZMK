@@ -307,3 +307,11 @@ label = "f5_turbo";
  wait-ms = <turbo_delay>;
  bindings = <&kp F5>;
 };
+
+bspc_turbo: bspc_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "bspc_turbo";
+ #binding-cells = <0>;
+ wait-ms = <turbo_delay>;
+ bindings = <&kp BSPC>;
+};
