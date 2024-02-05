@@ -20,7 +20,6 @@
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "turbos.dtsi"
     #include "version.dtsi"
 
     hm: homerow_mods {
@@ -50,11 +49,11 @@
 
         layer_WOW {
             bindings = <
- &trans            &N1_turbo     &N2_turbo  &trans  &N4_turbo  &N5_turbo            &f5_turbo                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &single_quote_turbo  &comma_turbo  &trans   &p_turbo   &y_turbo               &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans             &a_turbo        &trans  &trans     &trans   &i_turbo               &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans         &slash_turbo      &q_turbo  &trans   &k_turbo   &x_turbo                               &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans               &trans        &trans  &trans     &trans                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans            &N1_turbo     &N2_turbo    &trans  &N4_turbo  &N5_turbo            &f5_turbo                                                       &trans  &trans  &trans  &trans  &trans  &trans   &to 0
+ &trans  &single_quote_turbo  &comma_turbo    &trans   &p_turbo   &y_turbo               &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans             &a_turbo        &trans    &trans     &trans   &i_turbo               &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &slash_turbo      &q_turbo  &j_turbo   &k_turbo   &x_turbo                                    &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans               &trans        &trans    &trans     &trans                          &trans  &bspc_turbo  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -70,11 +69,11 @@
 
         layer_red {
             bindings = <
-  &kp LA(F4)    &kp LC(LA(N1))        &kp LC(LA(N2))    &kp LC(LA(N3))        &kp LC(LA(N4))  &kp LC(LA(N5))            &trans                                                                           &trans   &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &kp LC(LA(MINUS))
- &kp LA(ESC)     &kp LA(GRAVE)             &kp LC(X)         &kp LC(C)             &kp LC(V)       &kp PSCRN             &none                                                                    &kp LC(LA(W))  &kp LC(LS(TAB))          &kp N7          &kp N8          &kp N9          &trans             &trans
-      &trans     &kp LC(LA(H))         &kp LC(LA(J))     &kp LC(LA(K))         &kp LC(LA(L))   &kp LC(LA(P))             &to 1  &bt BT_SEL 0  &bt BT_SEL 1                  &bt BT_SEL 3  &trans  &kp LC(LA(T))      &kp LC(TAB)          &kp N4          &kp N5          &kp N6          &trans             &trans
-      &trans         &kp LC(Z)             &kp LC(Y)         &kp LC(A)         &kp LC(LA(C))     &kp LC(TAB)                                  &bt BT_SEL 2                         &none                               &kp LC(W)          &kp N1          &kp N2          &kp N3       &kp EQUAL             &trans
-      &trans  &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                            &trans        &trans        &trans                        &trans  &trans         &trans                           &trans          &kp N0          &kp N0          &trans             &trans
+  &kp LA(F4)    &kp LC(LA(N1))        &kp LC(LA(N2))    &kp LC(LA(N3))        &kp LC(LA(N4))  &kp LC(LA(N5))                   &trans                                                                           &trans   &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &kp LC(LA(MINUS))
+ &kp LA(ESC)     &kp LA(GRAVE)             &kp LC(X)         &kp LC(C)             &kp LC(V)       &kp PSCRN            &kp LC(LA(S))                                                                    &kp LC(LA(W))  &kp LC(LS(TAB))          &kp N7          &kp N8          &kp N9          &trans             &trans
+      &trans     &kp LC(LA(H))         &kp LC(LA(J))     &kp LC(LA(K))         &kp LC(LA(L))   &kp LC(LA(O))            &kp LC(LA(G))  &bt BT_SEL 0  &bt BT_SEL 1                  &bt BT_SEL 3  &trans  &kp LC(LA(T))      &kp LC(TAB)          &kp N4          &kp N5          &kp N6          &trans             &trans
+      &trans         &kp LC(Z)             &kp LC(Y)         &kp LC(A)         &kp LC(LA(C))   &kp LC(LA(T))                                         &bt BT_SEL 2                         &none                               &kp LC(W)          &kp N1          &kp N2          &kp N3       &kp EQUAL             &trans
+      &trans  &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                                   &trans        &trans        &trans                        &trans  &trans         &trans                           &trans          &kp N0          &kp N0          &trans             &trans
             >;
         };
 
@@ -84,7 +83,7 @@
  &trans   &kp EXCL     &kp AT    &kp HASH    &kp DLLR   &kp PRCNT            &kp C_VOL_UP                                                                                 &kp C_PREV  &kp CARET  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR          &trans
  &trans   &kp LBKT   &kp SEMI    &kp LBRC    &kp LPAR   &kp GRAVE            &kp C_VOL_DN  &bt BT_CLR  &kp LC(LA(PAUSE_BREAK))                  &bl BL_TOG  &trans        &kp C_NEXT  &kp TILDE  &kp RPAR  &kp RBRC  &kp COLON   &kp RBKT          &trans
  &trans  &kp QMARK  &kp MINUS    &kp BSLH   &kp EQUAL      &kp LT                                                       &trans                      &trans                               &kp GT  &kp PLUS  &kp PIPE  &kp UNDER  &kp SLASH          &trans
- &trans     &trans     &trans      &trans      &trans                               &mo 5      &trans                   &trans                      &trans  &trans            &trans               &trans    &trans     &trans     &trans          &trans
+ &trans      &none     &trans      &trans      &trans                               &mo 5      &trans                   &trans                      &trans  &trans            &trans               &trans    &trans     &trans     &trans          &trans
             >;
         };
 

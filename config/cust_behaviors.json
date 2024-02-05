@@ -142,5 +142,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&j_turbo",
+		"name": "&j_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&bspc_turbo",
+		"name": "&bspc_turbo",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
