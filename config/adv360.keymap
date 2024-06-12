@@ -19,7 +19,6 @@
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "turbos.dtsi"
     #include "version.dtsi"
 
     hm: homerow_mods {
@@ -39,11 +38,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE     &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &kp F5                                                                       &none  &kp N6     &kp N7  &kp N8    &kp N9     &kp N0      &to 1
-   &kp TAB    &kp SQT  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &kp EQUAL                                                                   &kp PG_UP   &kp F      &kp G   &kp C     &kp R      &kp L   &kp HOME
-   &kp ESC      &kp A      &kp O       &kp E   &kp U   &kp I              &kp F12  &kp LGUI  &kp LALT                  &kp LGUI  &kp LC(LA(SPACE))  &kp PG_DN   &kp D      &kp H   &kp T     &kp N      &kp S    &kp END
- &kp LSHFT  &kp SLASH      &kp Q       &kp J   &kp K   &kp X                                  &kp DEL                     &none                                 &kp B      &kp M   &kp W     &kp V      &kp Z  &kp ENTER
- &kp LCTRL     &kp UP   &kp DOWN    &kp LBKT  &kp N9                    &kp SPACE  &kp BSPC     &mo 3                     &mo 5              &mo 4      &mo 3          &kp RCTRL   &none  &kp LEFT  &kp RIGHT  &kp K_APP
+ &kp GRAVE     &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &kp F5                                                                       &none  &kp N6          &kp N7  &kp N8    &kp N9     &kp N0      &to 1
+   &kp TAB    &kp SQT  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &kp EQUAL                                                                   &kp PG_UP   &kp F           &kp G   &kp C     &kp R      &kp L   &kp HOME
+   &kp ESC      &kp A      &kp O       &kp E   &kp U   &kp I              &kp F12  &kp LGUI  &kp LALT                  &kp LGUI  &kp LC(LA(SPACE))  &kp PG_DN   &kp D           &kp H   &kp T     &kp N      &kp S    &kp END
+ &kp LSHFT  &kp SLASH      &kp Q       &kp J   &kp K   &kp X                                  &kp DEL                     &none                                 &kp B           &kp M   &kp W     &kp V      &kp Z  &kp ENTER
+ &kp LCTRL     &kp UP   &kp DOWN    &kp LBKT  &kp N9                    &kp SPACE  &kp BSPC     &mo 3                     &mo 5              &mo 4      &mo 3          &kp SCROLLLOCK   &none  &kp LEFT  &kp RIGHT  &kp K_APP
             >;
         };
 
@@ -73,7 +72,7 @@
  &kp LA(ESC)     &kp LA(GRAVE)             &kp LC(X)         &kp LC(C)             &kp LC(V)       &kp PSCRN            &kp LC(LA(S))                                                                    &kp LC(LA(W))  &kp LC(LS(TAB))          &kp N7          &kp N8          &kp N9          &trans             &trans
       &trans     &kp LC(LA(H))         &kp LC(LA(J))     &kp LC(LA(K))         &kp LC(LA(L))   &kp LC(LA(O))            &kp LC(LA(G))  &bt BT_SEL 0  &bt BT_SEL 1                  &bt BT_SEL 3  &trans  &kp LC(LA(R))      &kp LC(TAB)          &kp N4          &kp N5          &kp N6          &trans             &trans
       &trans         &kp LC(Z)             &kp LC(Y)         &kp LC(A)         &kp LC(LA(C))   &kp LC(LA(T))                                         &bt BT_SEL 2                         &none                               &kp LC(W)          &kp N1          &kp N2          &kp N3       &kp EQUAL             &trans
-      &trans  &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                                   &trans        &trans        &trans                        &trans  &trans         &trans                           &trans          &kp N0          &kp N0          &trans             &trans
+      &trans  &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                                   &trans        &trans        &trans                        &trans  &trans         &trans                        &kp RCTRL          &kp N0          &kp N0          &trans             &trans
             >;
         };
 
