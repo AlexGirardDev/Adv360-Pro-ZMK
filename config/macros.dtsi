@@ -1,0 +1,6 @@
+macro_switch: macro_switch{
+compatible = "zmk,behavior-macro";
+label = "macro_switch";
+#binding-cells = <0>;
+bindings = <&kp SCROLLLOCK>, <&kp SCROLLLOCK>;
+};
