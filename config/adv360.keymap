@@ -19,6 +19,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "turbos.dtsi"
     #include "version.dtsi"
 
     hm: homerow_mods {
