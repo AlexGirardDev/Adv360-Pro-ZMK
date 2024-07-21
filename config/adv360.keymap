@@ -55,11 +55,11 @@
 
         layer_QWERTY {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4     &kp N5  &kp F12                                                     &trans    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
-&kp TAB    &kp Q     &kp W   &kp E      &kp R      &kp T   &kp F6                                                      &kp HOME  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp LCTRL  &kp A     &kp S   &kp D      &kp F      &kp G   &kp F5     &kp PRINTSCREEN  &trans        &trans  &trans    &kp END   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &none         &trans                      &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 6   &kp LGUI  &trans            &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT  &kp C_MENU
+&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4     &kp N5  &kp F12                                                       &trans    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
+&kp TAB    &kp Q     &kp W   &kp E      &kp R      &kp T   &kp F6                                                        &kp HOME  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp LCTRL  &kp A     &kp S   &kp D      &kp F      &kp G   &kp F5     &kp PRINTSCREEN  &trans        &kp HOME  &trans    &kp END   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &none         &kp END                       &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 6     &kp LGUI  &trans            &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT  &kp C_MENU
             >;
         };
 
@@ -95,11 +95,11 @@
 
         Qwerty_fn {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                                 &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP                                           &trans  &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans      &trans                  &trans  &trans  &trans   &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans             &trans  &trans      &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                                        &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP                                                  &trans  &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans      &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                             &trans      &kp PAGE_DOWN                  &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans             &trans  &trans      &trans         &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
     };
