@@ -28,7 +28,7 @@
       continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
       ignore-modifiers;
     };
-  };
+
 
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
