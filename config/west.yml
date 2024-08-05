@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: AlexGirardDev
       url-base: https://github.com/AlexGirardDev
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: AlexGirardDev
       revision: adv360-z3.2-2
       import: app/west.yml
+    - name: zmk-auto-layer
+      remote: urob
+      revision: main
   self:
     path: config
