@@ -74,11 +74,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE        &kp N1         &kp N2     &kp N3      &kp N4     &kp N5  &kp F12                                                         &kp F9    &kp N6  &kp N7            &kp N8             &kp N9    &kp N0     &kp GRAVE
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P      &kp Y   &kp F6                                                          &kp HOME  &kp F   &kp G             &kp C              &kp R     &kp L      &kp BACKSLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U      &kp I   &kp F5     &kp LGUI  &kp LALT      &kp LGUI  &kp LC(LA(SPACE))  &kp END   &kp D   &kp H             &kp T              &kp N     &kp S      &kp SLASH
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K      &kp X                        &kp DEL       &to 5                                  &kp B   &kp M             &kp W              &kp V     &kp Z      &kp ENTER
-&kp LALT          &kp UP         &kp DOWN   &kp MINUS   &kp EQUAL          &kp SPACE  &kp BSPC  &mo 3         &mo 0     &mo 4              &mo 3             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT  &kp RIGHT  &kp K_APP
+&kp ESCAPE               &kp N1     &kp N2     &kp N3      &kp N4     &kp N5  &kp F12                                                        &kp F9        &kp N6  &kp N7            &kp N8             &kp N9    &kp N0     &kp GRAVE
+&kp TAB                  &kp SQT    &kp COMMA  &kp PERIOD  &kp P      &kp Y   &kp F6                                                         &kp HOME      &kp F   &kp G             &kp C              &kp R     &kp L      &kp BACKSLASH
+&mt LEFT_CONTROL ESCAPE  &kp A      &kp O      &kp E       &kp U      &kp I   &kp F5     &kp PRINTSCREEN  &kp LALT          &kp LGUI  &mo 3  &kp END       &kp D   &kp H             &kp T              &kp N     &kp S      &kp SEMI
+&kp LSHFT                &kp SLASH  &kp Q      &kp J       &kp K      &kp X                               &kp DEL           &to 5                          &kp B   &kp M             &kp W              &kp V     &kp Z      &kp ENTER
+&kp LALT                 &kp UP     &kp DOWN   &kp MINUS   &kp EQUAL          &kp SPACE  &kp BSPC         &kp LEFT_GUI      &mo 0     &mo 6  &kp LEFT_GUI          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT  &kp RIGHT  &kp K_APP
             >;
         };
 
@@ -104,11 +104,11 @@
 
         layer_red {
             bindings = <
-&kp LA(F4)   &kp LC(LA(N1))    &kp LC(LA(N2))        &kp LC(LA(N3))    &kp LC(LA(N4))        &kp LC(LA(N5))  &kp LC(LA(F))                                                        &kp LC(LA(B))  &kp LC(LA(N6))   &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &kp LC(LA(MINUS))
-&kp LA(ESC)  &kp LA(GRAVE)     &none                 &none             &none                 &kp PSCRN       &kp LC(LA(S))                                                        &kp LC(LA(W))  &kp LC(LS(TAB))  &kp N7          &kp N8          &kp N9          &trans          &trans
-&trans       &kp LC(LA(H))     &kp LC(LA(J))         &kp LC(LA(K))     &kp LC(LA(L))         &kp LC(LA(O))   &kp LC(LA(G))  &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 3  &trans  &kp LC(LA(R))  &kp LC(TAB)      &kp N4          &kp N5          &kp N6          &trans          &trans
-&trans       &none             &none                 &none             &kp LC(LA(C))         &kp LC(LA(T))                                &bt BT_SEL 2      &none                                &kp LC(W)        &kp N1          &kp N2          &kp N3          &kp EQUAL       &trans
-&trans       &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                  &trans         &trans        &trans            &trans        &trans  &trans                          &kp RCTRL       &kp N0          &kp N0          &trans          &trans
+&kp LA(F4)   &kp LC(LA(N1))    &kp LC(LA(N2))        &kp LC(LA(N3))    &kp LC(LA(N4))        &kp LC(LA(N5))  &kp LC(LA(F))                                                       &kp LC(LA(B))  &kp LC(LA(N6))   &kp LC(LA(N7))  &kp LC(LA(N8))  &kp LC(LA(N9))  &kp LC(LA(N0))  &kp LC(LA(MINUS))
+&kp LA(ESC)  &kp LA(GRAVE)     &none                 &none             &none                 &kp PSCRN       &kp LC(LA(S))                                                       &kp LC(LA(W))  &kp LC(LS(TAB))  &kp N7          &kp N8          &kp N9          &trans          &trans
+&trans       &kp LC(LA(H))     &kp LC(LA(J))         &kp LC(LA(K))     &kp LC(LA(L))         &kp LC(LA(O))   &kp LC(LA(G))  &bootloader  &bt BT_SEL 1      &bt BT_SEL 3  &trans  &kp LC(LA(R))  &kp LC(TAB)      &kp N4          &kp N5          &kp N6          &trans          &trans
+&trans       &none             &none                 &none             &kp LC(LA(C))         &kp LC(LA(T))                               &bt BT_SEL 2      &none                                &kp LC(W)        &kp N1          &kp N2          &kp N3          &kp EQUAL       &trans
+&trans       &kp LC(LA(LBKT))  &kp LS(LC(LA(LBKT)))  &kp LC(LA(RBKT))  &kp LS(LC(LA(RBKT)))                  &trans         &trans       &trans            &trans        &trans  &trans                          &kp RCTRL       &kp N0          &kp N0          &trans          &trans
             >;
         };
 
