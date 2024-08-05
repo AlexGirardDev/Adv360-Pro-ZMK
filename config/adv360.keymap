@@ -20,15 +20,6 @@
         #include "macros.dtsi"
     #include "turbos.dtsi"
     #include "version.dtsi"
-
-        num_word: num_word {
-            label = "NUMWORDS";
-            compatible = "zmk,behavior-auto-layer";
-            #binding-cells = <1>;
-            continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-            ignore-numbers;
-        };
-
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
