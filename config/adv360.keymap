@@ -46,6 +46,24 @@
 
         combo_copy {
             bindings = <&kp LC(C)>;
+            key-positions = <48 49>;
+            layers = <6>;
+        };
+
+        combo_x {
+            bindings = <&kp LC(X)>;
+            key-positions = <49 50>;
+            layers = <6>;
+        };
+
+        combo_paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <51 50>;
+            layers = <6>;
+        };
+
+        combo_undo {
+            bindings = <&kp LC(Z)>;
             key-positions = <47 48>;
             layers = <6>;
         };
