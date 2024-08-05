@@ -41,6 +41,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <47 48>;
+            layers = <6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
