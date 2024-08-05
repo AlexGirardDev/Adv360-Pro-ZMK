@@ -106,6 +106,56 @@
             key-positions = <47 48>;
             layers = <5>;
         };
+
+        combo_lefth_paran {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <41 42>;
+        };
+
+        combo_right_param {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <42 43>;
+        };
+
+        combo_left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <23 24>;
+        };
+
+        combo_right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <24 25>;
+        };
+
+        combo_left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <55 56>;
+        };
+
+        combo_right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <56 57>;
+        };
+
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17>;
+        };
+
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <17 18>;
+        };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <30 31>;
+        };
+
+        combo_underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
