@@ -8,7 +8,8 @@
  * This file was generated automatically. You may or may not want to
  * edit it directly.
  */
-
+#define COMBO_IDLE 150
+#define COMBO_TERM 20
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -87,14 +88,16 @@
             bindings = <&kp LC(C)>;
             key-positions = <48 49>;
             layers = <5>;
-            timeout-ms = <150>;
+            timeout-ms = COMBO_TIMEOUT;
+            require-prior-idle-ms = COMBO_IDLE;
         };
 
         combo_x {
             bindings = <&kp LC(X)>;
             key-positions = <49 50>;
             layers = <5>;
-            timeout-ms = <150>;
+             timeout-ms = COMBO_TIMEOUT;
+            require-prior-idle-ms = COMBO_IDLE;
         };
 
         combo_paste {
@@ -114,7 +117,8 @@
         combo_lefth_paran {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <41 42>;
-            timeout-ms = <150>;
+            timeout-ms = COMBO_TIMEOUT;
+            require-prior-idle-ms = COMBO_IDLE;
             layers = <5>;
         };
 
