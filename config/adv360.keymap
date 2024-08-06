@@ -88,16 +88,16 @@
             bindings = <&kp LC(C)>;
             key-positions = <48 49>;
             layers = <5>;
-            timeout-ms = <COMBO_TIMEOUT>;
-            require-prior-idle-ms = <COMBO_IDLE>;
+            timeout-ms = COMBE_TERM;
+            require-prior-idle-ms = COMBO_IDLE;
         };
 
         combo_x {
             bindings = <&kp LC(X)>;
             key-positions = <49 50>;
             layers = <5>;
-             timeout-ms = <COMBO_TIMEOUT>;
-            require-prior-idle-ms = <COMBO_IDLE>;
+            timeout-ms = COMBE_TERM;
+            require-prior-idle-ms = COMBO_IDLE;
         };
 
         combo_paste {
@@ -117,8 +117,8 @@
         combo_lefth_paran {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <41 42>;
-            timeout-ms = <COMBO_TIMEOUT>;
-            require-prior-idle-ms = <COMBO_IDLE>;
+             timeout-ms = COMBO_TIMEOUT;
+            require-prior-idle-ms = COMBO_IDLE;
             layers = <5>;
         };
 
