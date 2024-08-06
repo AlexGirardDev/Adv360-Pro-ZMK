@@ -20,6 +20,7 @@
         #include "macros.dtsi"
     #include "turbos.dtsi"
     #include "version.dtsi"
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -236,11 +237,11 @@
 
         new_default {
             bindings = <
-&none         &none            &none            &none                &none              &none  &kp F12                                                        &kp F9    &none  &none              &none                &none            &none            &kp GRAVE
-&kp TAB       &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y  &kp F6                                                         &kp HOME  &kp F  &kp G              &kp C                &kp R            &kp L            &kp BSLH
-&kp ESCAPE    &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I  &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D  &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
-&smart_shift  &kp SLASH        &kp Q            &kp J                &kp K              &kp X                              &kp DEL           &to 0                      &kp B  &kp M              &kp W                &kp V            &kp Z            &kp ENTER
-&none         &kp UP           &kp DOWN         &none                &none                     &kp SPACE  &kp BSPC         &kp LEFT_GUI      &mo 6     &none  &sl 6            &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
+&none         &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &kp F12                                                        &kp F9    &kp N6  &kp N7             &kp N8               &kp N9           &kp N0           &kp GRAVE
+&kp TAB       &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME  &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
+&kp ESCAPE    &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
+&smart_shift  &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &to 0                      &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
+&none         &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &mo 6     &none  &sl 6             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
             >;
         };
 
