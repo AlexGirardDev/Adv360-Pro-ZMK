@@ -117,7 +117,7 @@
         combo_lefth_paran {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <41 42>;
-             timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
