@@ -94,7 +94,7 @@
 
         combo_x {
             bindings = <&kp LC(X)>;
-            key-positions = <49 50>;
+            key-positions = <51 50>;
             layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
@@ -102,16 +102,18 @@
 
         combo_paste {
             bindings = <&kp LC(V)>;
-            key-positions = <51 50>;
+            key-positions = <49 50>;
             layers = <5>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
         };
 
         combo_undo {
             bindings = <&kp LC(Z)>;
             key-positions = <47 48>;
             layers = <5>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
         };
 
         combo_lefth_paran {
@@ -123,58 +125,66 @@
         };
 
         combo_right_param {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <42 43>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 24>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 25>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <55 56>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <56 57>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <16 17>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_plus {
             bindings = <&kp PLUS>;
             key-positions = <17 18>;
-            timeout-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
         combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <30 31>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <5>;
         };
 
@@ -182,7 +192,8 @@
             bindings = <&kp UNDER>;
             key-positions = <31 32>;
             layers = <5>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
         };
     };
 
