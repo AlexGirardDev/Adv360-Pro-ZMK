@@ -7,6 +7,7 @@
 / {
     behaviors {
       #include "macros.dtsi"
+    #include "turbos.dtsi"
       #include "version.dtsi"
       #ifndef VERSION_MACRO
       macro_ver: macro_ver {
