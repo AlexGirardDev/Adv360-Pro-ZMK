@@ -11,10 +11,8 @@
 
 #define COMBO_IDLE 150
 #define COMBO_TERM 20
-
 #define COMBO_IDLE_SLOW 50
 #define COMBO_TERM_SLOW 20
-
 #define COMBO_LAYERS 0
 
 #include <behaviors.dtsi>
@@ -206,6 +204,36 @@
             bindings = <&bootloader>;
             key-positions = <35 36 37 38>;
             layers = <COMBO_LAYERS>;
+        };
+
+        o, {
+            bindings = <&none>;
+            key-positions = <15 29>;
+        };
+
+        e. {
+            bindings = <&none>;
+            key-positions = <16 30>;
+        };
+
+        pu {
+            bindings = <&none>;
+            key-positions = <17 31>;
+        };
+
+        oq {
+            bindings = <&none>;
+            key-positions = <30 48>;
+        };
+
+        ej {
+            bindings = <&none>;
+            key-positions = <31 49>;
+        };
+
+        uk {
+            bindings = <&none>;
+            key-positions = <32 50>;
         };
     };
 
