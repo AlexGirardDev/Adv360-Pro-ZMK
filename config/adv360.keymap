@@ -90,6 +90,7 @@
             key-positions = <48 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <0 3>;
         };
 
         combo_x {
