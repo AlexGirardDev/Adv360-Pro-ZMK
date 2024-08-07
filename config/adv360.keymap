@@ -246,11 +246,6 @@
             key-positions = <41 55>;
         };
 
-        gh {
-            bindings = <&none>;
-            key-positions = <23 41>;
-        };
-
         tw {
             bindings = <&none>;
             key-positions = <42 56>;
