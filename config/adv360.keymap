@@ -265,6 +265,11 @@
             bindings = <&none>;
             key-positions = <43 57>;
         };
+
+        ct {
+            bindings = <&none>;
+            key-positions = <24 42>;
+        };
     };
 
     keymap {
