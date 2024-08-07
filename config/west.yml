@@ -12,7 +12,12 @@ manifest:
       revision: adv360-z3.2-2
       import: app/west.yml
     - name: zmk-auto-layer
-      remote: urob
       revision: main
+      remote: urob
+      path: modules/auto-layer
+    - name: zmk-tri-state
+      revision: main
+      remote: urob
+      path: modules/tri-state
   self:
     path: config
