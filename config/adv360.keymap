@@ -11,6 +11,7 @@
 
 #define COMBO_IDLE 150
 #define COMBO_TERM 20
+define COMBO_LAYERS <0 3>
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -90,7 +91,7 @@
             key-positions = <48 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <0 3>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_x {
@@ -98,6 +99,7 @@
             key-positions = <51 50>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_paste {
@@ -105,6 +107,7 @@
             key-positions = <50 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_undo {
@@ -112,6 +115,7 @@
             key-positions = <47 48>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_lefth_paran {
@@ -119,6 +123,7 @@
             key-positions = <41 42>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_right_param {
@@ -126,6 +131,7 @@
             key-positions = <42 43>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_left_bracket {
@@ -133,6 +139,7 @@
             key-positions = <23 24>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_right_bracket {
@@ -140,6 +147,7 @@
             key-positions = <24 25>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_left_brace {
@@ -147,6 +155,7 @@
             key-positions = <55 56>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_right_brace {
@@ -154,6 +163,7 @@
             key-positions = <56 57>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_equal {
@@ -161,6 +171,7 @@
             key-positions = <16 17>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_plus {
@@ -168,6 +179,7 @@
             key-positions = <17 18>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_minus {
@@ -175,6 +187,7 @@
             key-positions = <30 31>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_underscore {
@@ -182,11 +195,13 @@
             key-positions = <31 32>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         combo_bootloader {
             bindings = <&bootloader>;
             key-positions = <35 36 37 38>;
+            layers = <COMBO_LAYERS>;
         };
     };
 
