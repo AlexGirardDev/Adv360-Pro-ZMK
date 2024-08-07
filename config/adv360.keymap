@@ -246,7 +246,7 @@
             key-positions = <41 55>;
         };
 
-        ct {
+        gh {
             bindings = <&none>;
             key-positions = <23 41>;
         };
