@@ -8,10 +8,11 @@
  * This file was generated automatically. You may or may not want to
  * edit it directly.
  */
+
 #define COMBO_IDLE 150
 #define COMBO_TERM 20
+
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt { tapping-term-ms = <125>; };
@@ -87,7 +88,6 @@
         combo_copy {
             bindings = <&kp LC(C)>;
             key-positions = <48 49>;
-            layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
@@ -95,7 +95,6 @@
         combo_x {
             bindings = <&kp LC(X)>;
             key-positions = <51 50>;
-            layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
@@ -103,7 +102,6 @@
         combo_paste {
             bindings = <&kp LC(V)>;
             key-positions = <1 50>;
-            layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
@@ -111,7 +109,6 @@
         combo_undo {
             bindings = <&kp LC(Z)>;
             key-positions = <47 48>;
-            layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
@@ -121,7 +118,6 @@
             key-positions = <41 42>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_right_param {
@@ -129,7 +125,6 @@
             key-positions = <42 43>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_left_bracket {
@@ -137,7 +132,6 @@
             key-positions = <23 24>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_right_bracket {
@@ -145,7 +139,6 @@
             key-positions = <24 25>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_left_brace {
@@ -153,7 +146,6 @@
             key-positions = <55 56>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_right_brace {
@@ -161,7 +153,6 @@
             key-positions = <56 57>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_equal {
@@ -169,7 +160,6 @@
             key-positions = <16 17>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_plus {
@@ -177,7 +167,6 @@
             key-positions = <17 18>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_minus {
@@ -185,15 +174,18 @@
             key-positions = <30 31>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = <5>;
         };
 
         combo_underscore {
             bindings = <&kp UNDER>;
             key-positions = <31 32>;
-            layers = <5>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
+        };
+
+        combo_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <35 36 37 38>;
         };
     };
 
@@ -202,11 +194,11 @@
 
         default {
             bindings = <
-&none         &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &kp F12                                                        &kp F9    &kp N6  &kp N7             &kp N8               &kp N9           &kp N0           &kp GRAVE
-&kp TAB       &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME  &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
-&kp ESCAPE    &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
-&smart_shift  &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &to 0                      &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
-&none         &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &mo 6     &none  &sl 6             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
+&none       &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &kp F12                                                        &kp F9    &kp N6  &kp N7             &kp N8               &kp N9           &kp N0           &kp GRAVE
+&kp TAB     &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME  &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
+&kp ESCAPE  &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
+&none       &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &none                      &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
+&none       &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &trans    &none  &sl 2             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
             >;
         };
 
@@ -220,23 +212,23 @@
             >;
         };
 
-        fn_layer {
-            bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                                        &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP                                                  &trans  &trans  &kp N7  &kp N8   &kp N9   &trans   &trans
-&trans  &trans  &none   &none   &none   &none   &kp C_VOLUME_DOWN  &trans  &to 0       &kp PAGE_UP    &trans  &trans  &trans  &kp N4  &kp N5   &kp N6   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans      &kp PAGE_DOWN                  &trans  &kp N1  &kp N2   &kp N3   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &escape_space      &trans  &trans      &trans         &trans  &trans          &trans  &kp N0   &trans   &trans   &trans
-            >;
-        };
-
         layer_QWERTY {
             bindings = <
 &kp ESC    &kp N1    &kp N2  &kp N3     &kp N4     &kp N5  &kp F12                                                       &trans    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
 &kp TAB    &kp Q     &kp W   &kp E      &kp R      &kp T   &kp F6                                                        &kp HOME  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
 &kp LCTRL  &kp A     &kp S   &kp D      &kp F      &kp G   &kp F5     &kp PRINTSCREEN  &trans        &kp HOME  &to 0     &kp END   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &kp DEL       &kp END                       &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 5     &kp LGUI  &kp LGUI          &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT  &kp C_MENU
+&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &kp DEL       &to 0                         &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 0     &kp LGUI  &sl 2             &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT  &kp C_MENU
+            >;
+        };
+
+        fn_layer {
+            bindings = <
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                                      &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP                                                &trans  &trans  &kp N7  &kp N8   &kp N9   &trans   &trans
+&trans  &trans  &none   &none   &none   &none   &kp C_VOLUME_DOWN  &trans  &to 0       &kp PAGE_UP  &trans  &trans  &trans  &kp N4  &kp N5   &kp N6   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                             &trans      &to 2                        &trans  &kp N1  &kp N2   &kp N3   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &escape_space      &trans  &trans      &trans       &trans  &trans          &trans  &kp N0   &trans   &trans   &trans
             >;
         };
     };
