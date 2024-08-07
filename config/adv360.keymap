@@ -153,7 +153,7 @@
         };
 
         combo_left_brace {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&none>;
             key-positions = <55 56>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
@@ -161,7 +161,7 @@
         };
 
         combo_right_brace {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&none>;
             key-positions = <56 57>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
@@ -234,6 +234,36 @@
         uk {
             bindings = <&none>;
             key-positions = <32 50>;
+        };
+
+        gh {
+            bindings = <&none>;
+            key-positions = <23 41>;
+        };
+
+        hm {
+            bindings = <&none>;
+            key-positions = <41 55>;
+        };
+
+        ct {
+            bindings = <&none>;
+            key-positions = <23 41>;
+        };
+
+        tw {
+            bindings = <&none>;
+            key-positions = <42 56>;
+        };
+
+        rn {
+            bindings = <&none>;
+            key-positions = <25 43>;
+        };
+
+        nv {
+            bindings = <&none>;
+            key-positions = <43 57>;
         };
     };
 
