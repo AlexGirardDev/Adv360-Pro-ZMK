@@ -277,11 +277,11 @@
 
         default {
             bindings = <
-&none       &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &kp F12                                                        &kp F9    &kp N6  &kp N7             &kp N8               &kp N9           &kp N0           &kp GRAVE
-&kp TAB     &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME  &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
-&kp ESCAPE  &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
-&none       &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &none                      &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
-&none       &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &trans    &none  &sl 3             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
+&none       &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &kp F12                                                        &kp F9        &kp N6  &kp N7             &kp N8               &kp N9           &kp N0           &kp GRAVE
+&kp TAB     &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME      &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
+&kp ESCAPE  &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END       &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
+&none       &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &none                          &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
+&none       &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &trans    &sl 3  &kp LEFT_GUI          &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
             >;
         };
 
@@ -297,11 +297,11 @@
 
         layer_QWERTY {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4     &kp N5  &kp F12                                                       &trans    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
-&kp TAB    &kp Q     &kp W   &kp E      &kp R      &kp T   &kp F6                                                        &kp HOME  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp LCTRL  &kp A     &kp S   &kp D      &kp F      &kp G   &kp F5     &kp PRINTSCREEN  &trans        &kp HOME  &to 0     &kp END   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &kp DEL       &to 0                         &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 0     &kp LGUI  &sl 2             &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT  &kp C_MENU
+&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4     &kp N5  &kp F12                                                       &trans    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
+&kp TAB    &kp Q     &kp W   &kp E      &kp R      &kp T   &kp F6                                                        &kp HOME  &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&kp LCTRL  &kp A     &kp S   &kp D      &kp F      &kp G   &kp F5     &kp PRINTSCREEN  &trans        &kp HOME  &to 0     &kp END   &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X   &kp C      &kp V      &kp B                               &kp DEL       &to 0                         &kp N   &kp M     &kp COMMA  &kp DOT   &kp SLASH  &kp RSHFT
+&kp LALT   &kp DOWN  &kp UP  &kp MINUS  &kp EQUAL          &kp SPACE  &kp BSPC         &kp LGUI      &mo 0     &kp LGUI  &sl 2             &kp LBKT  &kp RBKT   &kp LEFT  &kp LEFT   &kp C_MENU
             >;
         };
 
