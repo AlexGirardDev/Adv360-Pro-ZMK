@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: AlexGirardDev
-      revision: adv360-z3.2-2
+      revision: main
       import: app/west.yml
     - name: zmk-auto-layer
       revision: main
