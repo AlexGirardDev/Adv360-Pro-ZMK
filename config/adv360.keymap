@@ -206,17 +206,17 @@
             layers = <COMBO_LAYERS>;
         };
 
-        o, {
+        pu {
             bindings = <&none>;
-            key-positions = <15 29>;
+            key-positions = <18 32>;
         };
 
-        e. {
+        o, {
             bindings = <&none>;
             key-positions = <16 30>;
         };
 
-        pu {
+        e. {
             bindings = <&none>;
             key-positions = <17 31>;
         };
