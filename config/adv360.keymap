@@ -11,7 +11,7 @@
 
 #define COMBO_IDLE 150
 #define COMBO_TERM 20
-define COMBO_LAYERS 0 3>
+#define COMBO_LAYERS 0 3
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
