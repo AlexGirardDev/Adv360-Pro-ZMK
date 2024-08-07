@@ -11,6 +11,10 @@
 
 #define COMBO_IDLE 150
 #define COMBO_TERM 20
+
+#define COMBO_IDLE_SLOW 50
+#define COMBO_TERM_SLOW 20
+
 #define COMBO_LAYERS 0
 
 #include <behaviors.dtsi>
