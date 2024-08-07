@@ -91,7 +91,7 @@
             key-positions = <48 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_x {
@@ -99,7 +99,7 @@
             key-positions = <51 50>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_paste {
@@ -107,7 +107,7 @@
             key-positions = <50 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_undo {
@@ -115,7 +115,7 @@
             key-positions = <47 48>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_lefth_paran {
@@ -123,7 +123,7 @@
             key-positions = <41 42>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_right_param {
@@ -131,7 +131,7 @@
             key-positions = <42 43>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_left_bracket {
@@ -139,7 +139,7 @@
             key-positions = <23 24>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_right_bracket {
@@ -147,7 +147,7 @@
             key-positions = <24 25>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_left_brace {
@@ -155,7 +155,7 @@
             key-positions = <55 56>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_right_brace {
@@ -163,7 +163,7 @@
             key-positions = <56 57>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_equal {
@@ -171,7 +171,7 @@
             key-positions = <16 17>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_plus {
@@ -179,7 +179,7 @@
             key-positions = <17 18>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_minus {
@@ -187,7 +187,7 @@
             key-positions = <30 31>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_underscore {
@@ -195,13 +195,13 @@
             key-positions = <31 32>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
 
         combo_bootloader {
             bindings = <&bootloader>;
             key-positions = <35 36 37 38>;
-            layers = COMBO_LAYERS;
+            COMBO_LAYERS;
         };
     };
 
@@ -214,7 +214,7 @@
 &kp TAB     &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y   &kp F6                                                         &kp HOME  &kp F   &kp G              &kp C                &kp R            &kp L            &kp BSLH
 &kp ESCAPE  &hml LEFT_ALT A  &hml LEFT_GUI O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I   &kp F5     &kp PRINTSCREEN  &kp LEFT_GUI      &kp LGUI  &none  &kp END   &kp D   &hmr LEFT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_GUI N  &hmr LEFT_ALT S  &kp SEMICOLON
 &none       &kp SLASH        &kp Q            &kp J                &kp K              &kp X                               &kp DEL           &none                      &kp B   &kp M              &kp W                &kp V            &kp Z            &kp ENTER
-&none       &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &trans    &none  &sl 2             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
+&none       &kp UP           &kp DOWN         &none                &none                      &kp SPACE  &kp BSPC         &kp LEFT_GUI      &trans    &none  &sl 3             &none              &none                &kp LEFT         &kp RIGHT        &kp K_APP
             >;
         };
 
