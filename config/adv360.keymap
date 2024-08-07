@@ -202,7 +202,6 @@
             bindings = <&bootloader>;
             key-positions = <35 36 37 38>;
             layers = <COMBO_LAYERS>;
-            COMBO_LAYERS;
         };
     };
 
