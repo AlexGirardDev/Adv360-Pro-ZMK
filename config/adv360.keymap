@@ -101,7 +101,7 @@
 
         combo_paste {
             bindings = <&kp LC(V)>;
-            key-positions = <1 50>;
+            key-positions = <50 49>;
             timeout-ms = <COMBO_TERM>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
