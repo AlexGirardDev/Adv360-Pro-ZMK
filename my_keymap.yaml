@@ -1,0 +1,382 @@
+layout: {qmk_keyboard: adv360}
+layers:
+  default:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '" '''
+  - '; ,'
+  - ': .' 
+  - P
+  - Y
+  - ''
+  - ''
+  - F
+  - G
+  - C
+  - R
+  - L
+  - ''
+  - ''
+  - {t: A, h: LEFT ALT}
+  - {t: O, h: LEFT GUI}
+  - {t: E, h: LEFT CONTROL}
+  - {t: U, h: LEFT SHIFT}
+  - I
+  - ''
+  - PRINTSCREEN
+  - LEFT GUI
+  - LGUI
+  - ''
+  - ''
+  - D
+  - {t: H, h: LEFT SHIFT}
+  - {t: T, h: LEFT CONTROL}
+  - {t: N, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - ''
+  - ''
+  - '/ ?'
+  - Q
+  - J
+  - K
+  - X
+  - DEL
+  - ''
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Space'
+  - 'Esc'
+  - LEFT GUI
+  - {t: ▽, type: trans}
+  - '???'
+  - 'Num'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  WOW:
+  - {t: ▽, type: trans}
+  - '&N1_turbo'
+  - '&N2_turbo'
+  - {t: ▽, type: trans}
+  - '&N4_turbo'
+  - '&N5_turbo'
+  - '&f5_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - '&single_quote_turbo'
+  - '&comma_turbo'
+  - {t: ▽, type: trans}
+  - '&p_turbo'
+  - '&y_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&a_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&i_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&slash_turbo'
+  - '&q_turbo'
+  - '&j_turbo'
+  - '&k_turbo'
+  - '&x_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bspc_turbo'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  QWERTY:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - F12
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '`'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - F6
+  - HOME
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - F5
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - HOME
+  - {t: default, h: toggle}
+  - END
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - DEL
+  - {t: default, h: toggle}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LALT
+  - DOWN
+  - UP
+  - '-'
+  - '='
+  - SPACE
+  - BSPC
+  - LGUI
+  - default
+  - LGUI
+  - {t: QWERTY, h: sticky}
+  - '['
+  - ']'
+  - LEFT
+  - LEFT
+  - MENU
+  fn:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&escape_space'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [48, 49]
+  k: 'Bspc'
+  l: [default]
+- p: [51, 50]
+  k: 'Paste'
+  l: [default]
+- p: [50, 49]
+  k: 'Del'
+  l: [default]
+- p: [47, 48]
+  k: 'Copy'
+  l: [default]
+- p: [41, 42]
+  k: '( <'
+  l: [default]
+- p: [42, 43]
+  k: ') >'
+  l: [default]
+- p: [23, 24]
+  k: '` ~'
+  l: [default]
+- p: [24, 25]
+  k: '\ |'
+  l: [default]
+- p: [55, 56]
+  k: '+ ='
+  l: [default]
+- p: [56, 57]
+  k: '- _'
+  l: [default]
+- p: [16, 17]
+  k: 'Tab'
+  l: [default]
+- p: [17, 18]
+  k: 'Enter'
+  l: [default]
+- p: [30, 31]
+  k: '{ ['
+  l: [default]
+- p: [31, 32]
+  k: '} ]'
+  l: [default]
+- p: [35, 36, 37, 38]
+  k: '&bootloader'
+  l: [default]
+- p: [18, 32]
+  k: ''
+- p: [16, 30]
+  k: ''
+- p: [17, 31]
+  k: ''
+- p: [30, 48]
+  k: ''
+- p: [31, 49]
+  k: ''
+- p: [32, 50]
+  k: ''
+- p: [23, 41]
+  k: ''
+- p: [41, 55]
+  k: ''
+- p: [23, 41]
+  k: ''
+- p: [42, 56]
+  k: ''
+- p: [25, 43]
+  k: ''
+- p: [43, 57]
+  k: ''
+- p: [24, 42]
+  k: ''
