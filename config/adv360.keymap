@@ -234,7 +234,7 @@
         };
 
         e. {
-            bindings = <&none>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 31>;
         };
 
@@ -281,11 +281,6 @@
         ct {
             bindings = <&none>;
             key-positions = <24 42>;
-        };
-
-        vertical {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <16 30>;
         };
     };
 
