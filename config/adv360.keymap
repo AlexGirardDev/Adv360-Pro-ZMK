@@ -17,7 +17,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <combos.dtsi>  // requires layer aliases
+#include "combos.dtsi"  // requires layer aliases
 
 &mt { tapping-term-ms = <125>; };
 
