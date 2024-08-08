@@ -220,67 +220,105 @@
         combo_bootloader {
             bindings = <&bootloader>;
             key-positions = <35 36 37 38>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <COMBO_LAYERS>;
         };
 
         pu {
             bindings = <&none>;
             key-positions = <18 32>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         o, {
             bindings = <&none>;
             key-positions = <16 30>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         e. {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 31>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE_SLOW>;
+            layers = <COMBO_LAYERS_SLOW>;
         };
 
         oq {
             bindings = <&none>;
             key-positions = <30 48>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         ej {
             bindings = <&none>;
             key-positions = <31 49>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         uk {
             bindings = <&none>;
             key-positions = <32 50>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         gh {
             bindings = <&none>;
             key-positions = <23 41>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         hm {
             bindings = <&none>;
             key-positions = <41 55>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         tw {
             bindings = <&none>;
             key-positions = <42 56>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         rn {
             bindings = <&none>;
             key-positions = <25 43>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         nv {
             bindings = <&none>;
             key-positions = <43 57>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
 
         ct {
             bindings = <&none>;
             key-positions = <24 42>;
+            timeout-ms = <COMBO_TERM>;
+            require-prior-idle-ms = <COMBO_IDLE>;
+            layers = <COMBO_LAYERS>;
         };
     };
 
