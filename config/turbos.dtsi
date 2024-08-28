@@ -307,6 +307,20 @@ label = "f5_turbo";
  wait-ms = <turbo_delay>;
  bindings = <&kp F5>;
 };
+f6_turbo: f6_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "f6_turbo";
+ #binding-cells = <0>;
+ wait-ms = <turbo_delay>;
+ bindings = <&kp F6>;
+};
+f12_turbo: f12_turbo{
+compatible = "zmk,behavior-turbo-key";
+label = "f12_turbo";
+ #binding-cells = <0>;
+ wait-ms = <turbo_delay>;
+ bindings = <&kp F12>;
+};
 
 bspc_turbo: bspc_turbo{
 compatible = "zmk,behavior-turbo-key";
