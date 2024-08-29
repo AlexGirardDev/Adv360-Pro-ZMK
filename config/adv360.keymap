@@ -35,21 +35,21 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3      &kp N4  &kp N5  &kp F12                                                         &kp F9    &kp N6  &kp N7         &kp N8  &kp N9    &kp N0     &to 1
-&kp TAB    &kp SQT    &kp COMMA  &kp PERIOD  &kp P   &kp Y   &kp F6                                                          &kp F10   &kp F   &kp G          &kp C   &kp R     &kp L      &kp BACKSLASH
-&kp ESC    &kp A      &kp O      &kp E       &kp U   &kp I   &kp F5     &kp LGUI  &kp LALT      &kp LGUI  &kp LC(LA(SPACE))  &kp F11   &kp D   &kp H          &kp T   &kp N     &kp S      &kp SEMICOLON
-&kp LSHFT  &kp SLASH  &kp Q      &kp J       &kp K   &kp X                        &kp DEL       &none                                  &kp B   &kp M          &kp W   &kp V     &kp Z      &kp ENTER
-&kp LCTRL  &kp UP     &kp DOWN   &kp LBKT    &kp N9          &kp SPACE  &kp BSPC  &kp LGUI      &mo 5     &mo 4              &kp LWIN          &macro_switch  &none   &kp LEFT  &kp RIGHT  &kp K_APP
+&kp GRAVE  &kp N1     &kp N2     &kp N3      &kp N4  &kp N5  &kp F12                                                                &kp F9    &kp N6  &kp N7         &kp N8  &kp N9    &kp N0     &to 1
+&kp TAB    &kp SQT    &kp COMMA  &kp PERIOD  &kp P   &kp Y   &kp F6                                                                 &kp F10   &kp F   &kp G          &kp C   &kp R     &kp L      &kp BACKSLASH
+&kp ESC    &kp A      &kp O      &kp E       &kp U   &kp I   &kp F5     &kp PRINTSCREEN  &kp LALT      &kp LGUI  &kp LC(LA(SPACE))  &kp F11   &kp D   &kp H          &kp T   &kp N     &kp S      &kp SEMICOLON
+&kp LSHFT  &kp SLASH  &kp Q      &kp J       &kp K   &kp X                               &kp DEL       &none                                  &kp B   &kp M          &kp W   &kp V     &kp Z      &kp ENTER
+&kp LCTRL  &kp UP     &kp DOWN   &kp LBKT    &kp N9          &kp SPACE  &kp BSPC         &kp LGUI      &mo 5     &mo 4              &kp LWIN          &macro_switch  &none   &kp LEFT  &kp RIGHT  &kp K_APP
             >;
         };
 
         layer_WOW {
             bindings = <
 &trans  &N1_turbo            &N2_turbo     &trans    &N4_turbo  &N5_turbo  &f12_turbo                                           &trans  &trans  &trans  &trans  &trans  &trans  &to 0
-&trans  &single_quote_turbo  &comma_turbo  &trans    &p_turbo   &y_turbo   &f6_turbo                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &a_turbo             &trans        &trans    &trans     &i_turbo   &f5_turbo     &trans       &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &slash_turbo         &q_turbo      &j_turbo  &k_turbo   &x_turbo                           &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans        &trans    &trans                &trans     &bspc_turbo  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &single_quote_turbo  &comma_turbo  &trans    &p_turbo   &y_turbo   &f6_turbo                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &a_turbo             &trans        &trans    &trans     &i_turbo   &f5_turbo   &trans       &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &slash_turbo         &q_turbo      &j_turbo  &k_turbo   &x_turbo                            &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans               &trans        &trans    &trans                &trans      &bspc_turbo  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
