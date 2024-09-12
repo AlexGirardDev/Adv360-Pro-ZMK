@@ -1,4 +1,4 @@
-#define turbo_delay 200
+#define turbo_delay 75
 a_turbo: a_turbo{
 compatible = "zmk,behavior-turbo-key";
 label = "a_turbo";
