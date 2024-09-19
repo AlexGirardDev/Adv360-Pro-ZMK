@@ -49,7 +49,7 @@
 &trans  &single_quote_turbo  &comma_turbo  &trans    &p_turbo   &y_turbo   &f6_turbo                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &a_turbo             &trans        &trans    &trans     &i_turbo   &f5_turbo   &to 0        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &slash_turbo         &q_turbo      &j_turbo  &k_turbo   &x_turbo                            &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans        &trans    &trans                &trans      &bspc_turbo  &mo 0       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans               &trans        &trans    &trans                &trans      &bspc_turbo  &trans      &mo 0   &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
